@@ -2,6 +2,7 @@
 
 pkgs.mkShell {
   buildInputs = with pkgs; [
+    python311
     nodejs-18_x
     bun
     nodePackages.typescript
