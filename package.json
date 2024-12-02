@@ -1,0 +1,13 @@
+{
+  "name": "aoc",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "prettier": "^3.4.1"
+  }
+}

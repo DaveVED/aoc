@@ -1,0 +1,13 @@
+{
+  "name": "aoc-2024",
+  "type": "module",
+  "dependencies": {
+      "aoc-helpers": "workspace:*"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
