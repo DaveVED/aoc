@@ -11,3 +11,14 @@ export const readFileLines = async (filePath: string): Promise<string[]> => {
     throw new Error(`Unable to read file by lines...`);
   }
 };
+
+export const readFile = async (filePath: string): Promise<string> => {
+  try {
+    // Read the file using Bun
+    const file = Bun.file(filePath);
+    const rawText = await file.text();
+    return rawText;
+  } catch (error) {
+    throw new Error(`Unable to read file by lines...`);
+  }
+};

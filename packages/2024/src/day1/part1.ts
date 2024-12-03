@@ -22,9 +22,9 @@ leftNumbers.sort((a: number, b: number) => a - b);
 rightNumbers.sort((a: number, b: number) => a - b);
 
 const sum = leftNumbers.reduce(
-  (sum: number, number: number, index: number) => sum + Math.abs(number - rightNumbers[index]),
+  (sum: number, number: number, index: number) =>
+    sum + Math.abs(number - rightNumbers[index]),
   0,
 );
 
 console.log(sum);
-

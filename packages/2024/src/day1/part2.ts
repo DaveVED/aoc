@@ -28,4 +28,3 @@ const sum = leftNumbers.reduce((sum: number, number: number) => {
 }, 0);
 
 console.log(sum);
-
